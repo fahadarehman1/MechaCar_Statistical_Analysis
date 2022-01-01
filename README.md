@@ -3,9 +3,9 @@ UW Data Bootcamp - Module 15
 
 - ### **Linear Regression to Predict MPG:** 
   
-  ![](C:\Users\Fahad.Rehman\Desktop\UW DataBootcamp\R_Analysis\01_Demo\lm_predict_mpg.PNG)
+  ![](/lm_predict_mpg.PNG)
   
-  ![](C:\Users\Fahad.Rehman\Desktop\UW DataBootcamp\R_Analysis\01_Demo\summary_lm.PNG)
+  ![](/summary_lm.PNG)
   
   - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
   
@@ -23,7 +23,7 @@ UW Data Bootcamp - Module 15
   
 - ### Summary Statistics on Suspension Coils
 
-  ![Total Summary](C:\Users\Fahad.Rehman\Desktop\UW DataBootcamp\R_Analysis\01_Demo\total_summary.PNG)                                                   ![Lot Summary](C:\Users\Fahad.Rehman\Desktop\UW DataBootcamp\R_Analysis\01_Demo\lot_summary.PNG)
+  ![Total Summary](/total_summary.PNG)                                                   ![Lot Summary](/lot_summary.PNG)
 
   - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
     - As seen from the above data frames(Total Summary and Lot Summary) the overall variance is less than 100 psi(per square inch) and meets the design specification but when we drill down on lot level we can see that lot3 has a variance of 170.286 which is way over the acceptable threshold of 100 psi.
@@ -33,7 +33,7 @@ UW Data Bootcamp - Module 15
   - Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
   
 
-<img src="C:\Users\Fahad.Rehman\Desktop\UW DataBootcamp\R_Analysis\01_Demo\t_test.jpg" style="zoom:75%;" />
+<img src="/t_test.jpg" style="zoom:75%;" />
 
 - The one sample t-test for everything combined recorded a p-value of 0.061 which is low enough to reject the null hypothesis.
 - The sample t-test of **lot 1** yields the p-value of 1 which is significantly higher than standard p-value so the null hypothesis cannot be rejected in this case. Also the population mean is similar to combine result set.
